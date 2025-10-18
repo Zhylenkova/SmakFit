@@ -55,6 +55,10 @@ MIDDLEWARE = [
      "corsheaders.middleware.CorsMiddleware",
 ]
 
+CORS_ALLOWED_ORIGINS = [
+    "http://localhost:3000",
+]
+
 ROOT_URLCONF = 'SmakFit.urls'
 CORS_ALLOW_ALL_ORIGINS = True  
 TEMPLATES = [
